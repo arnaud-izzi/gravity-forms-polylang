@@ -25,7 +25,7 @@ if (!class_exists('GravityFormsPolylangInitialize')) :
             $gf_pll->registerStrings();
         }
 
-        public static function translateStrings($form): mixed
+        public static function translateStrings($form)
         {
             $gf_pll = new GravityFormsPolylang();
             return $gf_pll->translateStrings($form);
